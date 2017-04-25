@@ -189,12 +189,12 @@ main {
     }
     .unknow {
         position: relative;
-        height: 360px;
+        height: 260px;
         background-color: #ededed;
         h2,
         img {
             @include suipin;
-            top: 90px;
+            top: 40px;
             transition: all 1s;
         }
         img:hover {
@@ -202,7 +202,7 @@ main {
         }
         h2 {
             width: 100%;
-            top: 225px;
+            top: 175px;
             font: 54px "黑体";
             color: #d0d0d0;
             text-align: center;
@@ -213,13 +213,16 @@ main {
         background-color: #f7f7f7;
         padding-top: (605px-390px)/2;
         div.container {
-            width: 960px;
+            width: 1200px;
             height: 100%;
             margin: 0 auto;
+            a{
+                color: #222;
+            }
             figure {
                 display: inline-block;
                 float: left;
-                width: 25%;
+                width: 20%;
                 position: relative;
                 transition: margin-top 1s;
                 img {
